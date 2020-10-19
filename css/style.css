@@ -280,3 +280,77 @@ text-align: center; }
 }
 
 						/*footer ends*/
+						/*menu page*/
+#menu-branch{
+	text-align: center;
+	position: relative;
+}
+
+#tiffin,#lunch ,#dinner ,#dessert ,#cm ,#mm ,#sf ,#hcd {
+	width: 200px;
+	height: 150px;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+#tiffin:hover,#lunch:hover ,#dinner:hover ,#dessert:hover ,#cm:hover ,#mm:hover,#sf:hover ,#hcd:hover
+{
+	box-shadow: 0 1px 5px 1px #cccccc;
+
+}
+
+#menu-branch span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: 0.8;
+  
+}
+
+#tiffin{
+		background: url('../images/tiffinmenu.jpg')no-repeat;
+	background-position: center;
+}
+#lunch{
+		background: url('../images/meals menu.jpg')no-repeat;
+	background-position: center;
+}
+#dinner{
+		background: url('../images/dinnermenu.jpg')no-repeat;
+	background-position: center;
+}
+#dessert{
+		background: url('../images/desserts.jpg')no-repeat;
+	background-position: center;
+}
+#cm{
+		background: url('../images/chikenmenu.jpg')no-repeat;
+	background-position: center;
+}
+#mm{
+		background: url('../images/muttonmenu.jpg')no-repeat;
+	background-position: center;
+}
+#sf{
+		background: url('../images/seafoodmenu.jpg')no-repeat;
+	background-position: center;
+}
+#hcd{
+		background: url('../images/hcd.jpg')no-repeat;
+	background-position: center;
+}
+#main-content h1
+{
+	font-family: 'Lora',serif;
+	color: #22281e;
+	padding: 16px;
+}
+
+                     /*menu page ends#/
